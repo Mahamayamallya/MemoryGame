@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(2, 2, 48);
+  color: white;
+  text-align: center;
+}
+h1,
+h2 {
+  font-family: "Press Start 2P", system-ui;
+  margin-bottom: 25px;
+}
+p {
+  color: rgb(92, 99, 105);
+  font-family: "Madimi One", sans-serif;
+}
+.green {
+  height: 150px;
+  width: 150px;
+  border: 5px solid black;
+  border-radius: 10%;
+  background-color: green;
+  margin: 20px;
+  display: inline-block;
+}
+.red {
+  height: 150px;
+  width: 150px;
+  border: 5px solid black;
+  border-radius: 10%;
+  background-color: red;
+  margin: 20px;
+  display: inline-block;
+}
+.blue {
+  height: 150px;
+  width: 150px;
+  border: 5px solid black;
+  border-radius: 10%;
+  background-color: blue;
+  margin: 20px;
+  display: inline-block;
+}
+.yellow {
+  height: 150px;
+  width: 150px;
+  border: 5px solid black;
+  border-radius: 10%;
+  background-color: yellow;
+  margin: 20px;
+  display: inline-block;
+}
+.container {
+  text-align: center;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.wrong {
+  background-color: red;
+}
